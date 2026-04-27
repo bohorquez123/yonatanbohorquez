@@ -1,11 +1,20 @@
-import './App.css' 
-function App() { 
- const tituloProyecto = "NBA xdd" 
-return ( 
- <div className="app"> 
-   <h1>{tituloProyecto}</h1>
-    <p>Si ves este texto, React está funcionando 🎉</p> 
- </div>
+
+import Encabezado from './componentes/Encabezado'
+import Formulario from './componentes/Formulario'
+import Lista from './componentes/Lista'
+import Item from './componentes/Item'
+import PiePagina from './componentes/PiePagina'
+import './App.css'
+function App() {
+  return (
+    <div className="app">
+      <Encabezado />
+      <Formulario />
+      <Lista />
+      <Item />
+      <PiePagina />
+    </div>
   )
-} 
+}
 export default App 
+
