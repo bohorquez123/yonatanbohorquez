@@ -2,8 +2,8 @@
 function Item({tarea}) {
     return (
         <article className="item">
-            <h3>{tarea.texto}</h3>
-            <p>Estado: {tarea.completada ? 'complateada' : 'pendiente'}</p>
+            <h3 className="item_texto">{tarea.texto}</h3>
+            <p className="item_estado">Estado: {tarea.completada ? 'complateada' : 'pendiente'}</p>
         </article>
     )
 }

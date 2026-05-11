@@ -28,8 +28,6 @@ function App() {
       subtitulo= "organiza lo que tienes qu hacer hoy" />
       <Formulario />
       <Lista tareas={peliculas} />
-      
-      
       <Item tarea={tareaEjemplo}/>
       <PiePagina />
     </div>
